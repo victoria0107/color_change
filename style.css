@@ -34,6 +34,16 @@ a {
   padding: 5px 5px 5px 15px;
   font-family: 'Abel';
 }
+.photo {
+  width: 500px;
+  height: 500px;
+  min-width: 100%;
+  object-fit: scale-down;
+  background-color: transparent;
+  display: flex;
+  flex-direction: inherit;
+  justify-content: center;
+}
 
 /* contents */
 #contents {
